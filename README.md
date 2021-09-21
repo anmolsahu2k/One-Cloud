@@ -74,7 +74,7 @@
     cd server
     npm start
     ```
-3. Open application on brower- https://localhost:5000
+3. Open application on brower- https://localhost:3000
     
 
 <!-- ABOUT THE PROJECT -->
