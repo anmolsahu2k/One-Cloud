@@ -31,51 +31,7 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-### Prerequisites
-
-* NodeJS
-* NPM
-* MongoDB Atlas
-* AWS S3
-* IDE(Visual Code Studio)
-* Git
-
-### Installation
-
-1. Clone the repo
-   ```
-   git clone https://github.com/anmolsahu2k/One-Cloud.git
-   ```
-2. Install NPM packages in client side
-   ```
-   cd client
-   npm install
-   ```
-3. Install NPM packages in server side
-   ```
-   cd server
-   npm install
-   ```
-3. Enter your credentials in '.env'
-   ```
-    Check .env.example file to configure environment variables 
-   ```
-
-### To Run
-
-1. Run client side
-   ```
-   cd client
-   npm start
-   ```
-2. Run server side
-    ```
-    cd server
-    npm start
-    ```
-3. Open application on brower- https://localhost:3000
-    
+   
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -111,6 +67,76 @@
       * Heroku
       * Netlify
 
+
+## File structure
+#### `client` - Holds the client application
+- #### `public` - This holds all of our static files
+- #### `src`
+    - #### `actions` - This folder holds actions to be dispatched
+    - #### `api` - This folder holds api integration with the server side of application
+    - #### `components` - This folder holds all of the different components that make up the frontend
+    - #### `constants` - These represent action types for reducers
+    - #### `reducers` - These represent the usage of redux.js for global store
+    - #### `App.js` - This is what renders all of our browser routes and different views
+    - #### `index.js` - This is what renders the react app by rendering App.js
+- #### `package.json` - Defines npm behaviors and packages for the client
+#### `server` - Holds the server application
+- #### `controllers` - These hold all of the callback functions that each route will call
+- #### `helpers` - This holds multer configuration for file upload
+- #### `middleware` - This holds authentication middleware
+- #### `models` - This holds all of our data models
+- #### `routes` - This holds all of our HTTP to URL path associations for each unique url
+- #### `upload` - This folder is used as a temporary storage for uploaded file
+- #### `index.js` - Defines npm behaviors and packages for the client
+- #### `.env` - This holds our configuration files, like mongoDB uri
+#### `package.json` - Defines npm behaviors
+#### `.gitignore` - Tells git which files to ignore
+
+## Getting Started
+### Prerequisites
+
+* NodeJS
+* NPM
+* MongoDB Atlas
+* AWS S3
+* IDE(Visual Code Studio)
+* Git
+
+### Installation
+
+1. Clone the repo
+   ```
+   git clone https://github.com/anmolsahu2k/One-Cloud.git
+   ```
+2. Install NPM packages in client side
+   ```
+   cd client
+   npm install
+   ```
+3. Install NPM packages in server side
+   ```
+   cd server
+   npm install
+   ```
+3. Enter your credentials in '.env'
+   ```
+    Check env.example file to configure environment variables 
+   ```
+
+### To Run
+
+1. Run client side
+   ```
+   cd client
+   npm start
+   ```
+2. Run server side
+    ```
+    cd server
+    npm start
+    ```
+3. Open application on brower- https://localhost:3000
+ 
 <!-- License -->
 ## License
 MIT License  :balance_scale:
