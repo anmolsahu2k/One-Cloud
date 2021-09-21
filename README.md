@@ -120,6 +120,6 @@ MIT License  :balance_scale:
 
 - Anmol Sahu - anmolsahu2k@gmail.com
 
-
 Project Link: [https://github.com/anmolsahu2k/One-Cloud](https://github.com/anmolsahu2k/One-Cloud)
+
 Made as a part of QuantaVid LLC internship task.
