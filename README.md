@@ -28,6 +28,18 @@
   </ol>
 </details>
 
+## Tasks to be completed
+- [x] Sign in and Signup functionality for users.
+- [x] Create a folder with the user’s name on the server or cloud of your choice(preferred).
+- [x] Give users upload, update, delete & share functionality for music, image, and video files.
+- [x] Compelling and Responsive UI.
+- [x] Push code on GitHub.
+- [x] Deploy the website in production mode.
+- [x] Asynchronous solution.
+- [x] No external libraries used which give complete functionalities which are implemented.
+- [x] A well-baked README file.
+- [x] Project setup with a simple command.
+- [x] A concise project structure with configurations.
 
 
 <!-- GETTING STARTED -->
