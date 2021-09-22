@@ -38,7 +38,8 @@
 
   ### Introduction
   
-  A project that allows users to upload, update, delete & share music, image, and video files with required authorisation and authentication
+  A project that allows users to upload, update, delete & share music, image, and video files with required authorisation and authentication.
+  A folder with the user’s name on the AWS cloud is created to segregate files from different users.
 
 
   ### Implementation: 
@@ -137,6 +138,18 @@
     ```
 3. Open application on brower- https://localhost:3000
  
+### Screenshots
+
+SignUp Page-
+![SignUp](https://github.com/anmolsahu2k/One-Cloud/blob/master/Asset/SignUp.png)
+
+SignIn Page-
+![SignIn](https://github.com/anmolsahu2k/One-Cloud/blob/master/Asset/SignIn.png)
+
+Upload and View files-
+![Upload](https://github.com/anmolsahu2k/One-Cloud/blob/master/Asset/Upload.png)
+
+![Image](https://github.com/anmolsahu2k/One-Cloud/blob/master/Asset/Image.png)
 <!-- License -->
 ## License
 MIT License  :balance_scale:
